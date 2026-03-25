@@ -55,7 +55,6 @@ export default function App() {
   const [nombre, setNombre] = useState("");
   const [mensaje, setMensaje] = useState("");
   const [vista, setVista] = useState("inicio");
-  const [mensajeExtra, setMensajeExtra] = useState("");
 
   const buscar = () => {
     const nombreNormalizado = normalizar(nombre);
